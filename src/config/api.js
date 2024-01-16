@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 const DEPLOYED='https://weak-jade-rattlesnake-kit.cyclic.app/'
-const LOCALHOST='http://localhost:5454'
+const LOCALHOST='https://weak-jade-rattlesnake-kit.cyclic.app/'
 
 export const API_BASE_URL = LOCALHOST;
 
