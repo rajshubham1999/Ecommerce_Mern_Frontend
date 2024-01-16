@@ -7,8 +7,8 @@
 A full-stack eCommerce application built with React and Spring Boot And Node Js. The project aims to provide users with a seamless online shopping experience, featuring a responsive and user-friendly interface, a wide range of products, and secure payment options.
 
 ## Server
-###### spring boot: https://github.com/ashok0001/e-commerce-server
-###### node js: https://github.com/ashok0001/ecommerce-node
+
+###### node js: https://github.com/rajshubham1999/Ecommerce_Mern_Backend
 
 ## Table of Contents
 
@@ -32,9 +32,7 @@ A full-stack eCommerce application built with React and Spring Boot And Node Js.
 - Order history and tracking.
 - Admin panel to manage products, categories, and orders.
 
-## Demo
 
-[shopwithzosh](https://shopwithzosh.vercel.app/)
 
 ## Technologies Used
 
@@ -46,18 +44,14 @@ A full-stack eCommerce application built with React and Spring Boot And Node Js.
   - MUI: CSS components library.
   - Tailwind Css.
 
-- Backend:
-  - Spring Boot: Java framework for building robust and scalable backend applications.
-  - Spring Security: Authentication and authorization for the API endpoints.
-  - Spring Data JPA: Database access and ORM tool.
-  - MySQL : Database to store application data.
+
 
 ## Installation
 
-1. Clone Frontend repository: `git clone https://github.com/ashok0001/e-commerce-server.git`
-2. Clone Backend Repository: `git clone https://github.com/ashok0001/e-commerce-server.git`
-3. Change directory Frontend:`cd shopwithzosh`
-4. Change directory Backend: `cd e-commerce-server`
+1. Clone Frontend repository: ``
+2. Clone Backend Repository: ``
+3. Change directory Frontend:``
+4. Change directory Backend: ``
 5. Install frontend dependencies: `npm install`
 6. Install backend dependencies
 
@@ -87,9 +81,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or suggestions, feel free to contact me:
 
-- Ashok Zarmariya
-- ashokzarmariya47@gmail.com
-- [Linkedin](https://www.linkedin.com/in/ashok-zarmariya-473aa722a/)
+- Shubham Raj
+
 
 Feel free to customize the README to include more specific information about your project. Good luck with your eCommerce full-stack application!
 
