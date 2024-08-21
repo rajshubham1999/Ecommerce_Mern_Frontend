@@ -1,7 +1,7 @@
 
 import axios from 'axios';
-const DEPLOYED='https://weak-jade-rattlesnake-kit.cyclic.app/'
-const LOCALHOST='https://weak-jade-rattlesnake-kit.cyclic.app/'
+
+const LOCALHOST='https://ecommerce-mern-backend-wo5h.onrender.com/'
 
 export const API_BASE_URL = LOCALHOST;
 
