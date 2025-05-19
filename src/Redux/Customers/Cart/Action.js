@@ -28,7 +28,7 @@ export const addItemToCart = (reqData) => async (dispatch) => {
         "Content-Type": "application/json",
       },
     };
-    const { data } = await axios.put(`${API_BASE_URL}/api/cart/add`, 
+    const { data } = await axios.put(`${API_BASE_URL}api/cart/add`, 
       reqData.data,
       config,
     );
@@ -56,7 +56,7 @@ export const getCart = (jwt) => async (dispatch) => {
           "Content-Type":"application/json"
         },
       };
-    const { data } = await axios.get(`${API_BASE_URL}/api/cart/`,config);
+    const { data } = await axios.get(`${API_BASE_URL}api/cart/`,config);
 console.log("cart ",data)
     dispatch({
       type: GET_CART_SUCCESS,
@@ -82,7 +82,7 @@ export const removeCartItem = (reqData) => async (dispatch) => {
           "Content-Type":"application/json"
         },
       };
-      await axios.delete(`${API_BASE_URL}/api/cart_items/${reqData.cartItemId}`,config);
+      await axios.delete(`${API_BASE_URL}api/cart_items/${reqData.cartItemId}`,config);
   
       dispatch({
         type: REMOVE_CART_ITEM_SUCCESS,
@@ -109,7 +109,7 @@ export const removeCartItem = (reqData) => async (dispatch) => {
         },
       };
       const { data } = await axios.put(
-        `${API_BASE_URL}/api/cart_items/${reqData.cartItemId}`,
+        `${API_BASE_URL}api/cart_items/${reqData.cartItemId}`,
         reqData.data,config
       );
   console.log("udated cartitem ",data)

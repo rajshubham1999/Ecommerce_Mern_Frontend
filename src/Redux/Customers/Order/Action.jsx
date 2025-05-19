@@ -25,7 +25,7 @@ export const createOrder = (reqData) => async (dispatch) => {
     };
 
     const { data } = await api.post(
-      `${API_BASE_URL}/api/orders/`,
+      `${API_BASE_URL}api/orders/`,
       reqData.address,
     );
     
